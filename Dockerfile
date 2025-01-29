@@ -7,3 +7,4 @@ RUN python manage.py migrate
 RUN python manage.py createsuperuser
 
 CMD ["python","manage.py","runserver"]
+EXPOSE 8000
